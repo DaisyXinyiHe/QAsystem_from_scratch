@@ -10,5 +10,6 @@ Repository of building Question and Answer chatbot system from scratch or other 
     * Sources:
     * https://sarabesh.medium.com/how-i-built-a-vector-db-with-hnsw-from-scratch-a311b6eac082
     * https://medium.com/@vidiptvashist/building-a-vector-database-from-scratch-in-python-6bd683ba5171
+    * https://machinelearningmastery.com/tutorial-to-implement-k-nearest-neighbors-in-python-from-scratch/
   * However, need to refine tokenizer as there are some tokens in validation dataset that might not exist in training dataset.
   * Need to add reader
