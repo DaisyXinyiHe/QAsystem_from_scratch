@@ -7,5 +7,8 @@ Repository of building Question and Answer chatbot system from scratch or other 
   * *Using the above transformer architecture + adding a QA head to build a QA model.
   * Trained on the SQuAD train dataset.
   * Add simple vector store and KNN search capability.
+    * Sources:
+    * https://sarabesh.medium.com/how-i-built-a-vector-db-with-hnsw-from-scratch-a311b6eac082
+    * https://medium.com/@vidiptvashist/building-a-vector-database-from-scratch-in-python-6bd683ba5171
   * However, need to refine tokenizer as there are some tokens in validation dataset that might not exist in training dataset.
   * Need to add reader
