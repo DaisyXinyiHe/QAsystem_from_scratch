@@ -7,6 +7,7 @@ First, we state a question.
 Then we use cosine similarity and KNN to search in the vector store of questions that are similar to the question ask. With this method, we retrieve the context. 
 We put the question and the context together into the QA system to predict answers to the questions. 
 
+This project serve as a basis to understand how QA system work. The next step is to replicate with more sophisticated technilogy, such as a pre-tained model with generative capability and Vector DB with HNSW capability. 
 
 * Transformer_Arch.ipynb: Tranformer architecture from https://github.com/nlp-with-transformers/notebooks
 * QA_transformer_from_scratch.ipynb:
@@ -26,4 +27,4 @@ We put the question and the context together into the QA system to predict answe
       * BERT use word piece tokenizer. Or Sentence piece tokenizer
   * Need to add reader
   * Check out beam search and decoder srtcutures for generative QA system.
-* The above serve as a basis to understand how QA system work. The next step is to replicate with more sophisticated technilogy, such as a pre-tained model with generative capability and Vector DB with HNSW capability. 
+
