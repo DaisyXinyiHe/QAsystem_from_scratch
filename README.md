@@ -3,9 +3,16 @@
 Repository of building Question and Answer chatbot system from scratch or other NLP techniques
 
 This repository contains an extractive Question Answering system supported by a vector store with question and context information. 
-First, we state a question. 
-Then we use cosine similarity and KNN to search in the vector store of questions that are similar to the question ask. With this method, we retrieve the context. 
-We put the question and the context together into the QA system to predict answers to the questions. 
+
+How QA model was trained: 
+* Encoder transformer architesture was used
+* A QA head was added to the encoder. This predicts the start and the end of the answer based on the question and the context. 
+* SQuAD dataset was used to train the model
+
+How to make inference: 
+* First, we state a question. 
+* Then we use cosine similarity and KNN to search in the vector store of questions that are similar to the question ask. With this method, we retrieve the context. 
+* We put the question and the context together into the QA system to predict answers to the questions. 
 
 This project serve as a basis to understand how QA system work. The next step is to replicate with more sophisticated technilogy, such as a pre-tained model with generative capability and Vector DB with HNSW capability. 
 
